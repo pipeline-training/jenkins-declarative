@@ -299,7 +299,7 @@ Then add the following stage after the **Deploy** stage:
       }
 ```
 
-The ```helloWorld``` function we are calling can be seen at: https://github.com/PipelineHandsOn/shared-libraries/blob/master/vars/helloWorld.groovy
+The ```helloWorld``` function we are calling can be seen at: https://github.com/beedemo/workflowLibs/blob/master/vars/helloWorld.groovy
 
 # Exercise 1.11
 
