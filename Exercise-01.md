@@ -289,7 +289,7 @@ Add the following line at the top of your pipeline **above** the ```pipeline``` 
 
 ```library 'BeeDemoLibs'```
 
-Then add the following stage after the **Deploy** stage:
+Then replace the **Testing** stage with the following:
 
 ```
       stage('Shared Lib') {
