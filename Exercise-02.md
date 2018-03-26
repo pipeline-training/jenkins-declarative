@@ -20,7 +20,7 @@ In this exercise we are going to create a Github Organization project from our n
 
 **Note**: You need to have a Github personal access token ([Github-Personal-Access-Token.md](Github-Personal-Access-Token.md)) before proceeding.
 
-First let's add your Github credentials to the Jenkins' Credentials manager:
+Let's add your new created access token to the Jenkins' Credentials manager:
 
 1. Navigate back to your personal folder in Jenkins
 2. Click on **Credentials**
