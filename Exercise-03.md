@@ -1,6 +1,6 @@
 # Exercise 3.1
 
-In this exercise we are going to quickly create a new pipeline to demonstrate how Checkpoints work and how end users can interact with Checkpoints once a job as been built. To test this create a new pipeline job in your personal folder called **CheckpointJob** by copying and pasting the following code into the Pipeline Script textbox:
+In this exercise we are going to quickly create a new pipeline to demonstrate how Checkpoints work and how end users can interact with Checkpoints once a job as been built. To test this create a new **Pipeline** job in your personal folder called **CheckpointJob** by copying and pasting the following code into the Pipeline Script textbox:
 
 ```
 pipeline {
