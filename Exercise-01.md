@@ -287,7 +287,7 @@ More information on using Shared Libraries is available here: https://jenkins.io
 
 Add the following line at the top of your pipeline **above** the ```pipeline``` line:
 
-```library 'BeeDemoLibs'```
+```library 'BeedemoLibs'```
 
 Then replace the **Testing** stage with the following:
 
