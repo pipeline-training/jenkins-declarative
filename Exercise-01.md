@@ -281,7 +281,7 @@ Add the following stage after ```stage('Say Hello')```:
 
 # Exercise 1.10
 
-In **Exercise 1.9** we are going to add a stage to our pipeline that uses a **Shared Library** to import functionality that allows us to say hi.
+In **Exercise 1.10** we are going to add a stage to our pipeline that uses a **Shared Library** to import functionality that allows us to say hi.
 
 More information on using Shared Libraries is available here: https://jenkins.io/doc/book/pipeline/shared-libraries/
 
