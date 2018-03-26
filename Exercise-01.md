@@ -305,7 +305,7 @@ The ```helloWorld``` function we are calling can be seen at: https://github.com/
 
 Finally we will use the Blue Ocean Pipeline Editor to create a simple declarative pipeline using the following steps:
 
-1. Navigate to your user folder.  You should see the job SimplePipeline and your username at the top of the page.
+1. Navigate to your user folder.  You should see the job **SimplePipeline** and your username at the top of the page.
 2. Click on the **Open Blue Ocean** button in the left side navigation bar
 3. Click on the **New Pipeline** button
 4. Click on one of the options in the **Where do you store your code?** section (Github for this course)
