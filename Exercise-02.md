@@ -79,7 +79,7 @@ Notice how after you commit your changes the Github web hooks trigger a build of
 
 # Exercise 2.4
 
-In this exercise we are going to edit the development branch's Jenkinsfile again but make our commit against a feature branch and user a pull request to merge the edits into our development branch.
+In this exercise we are going to edit the development branch's Jenkinsfile again but make our commit against a feature branch and use a pull request to merge the edits into our development branch.
 
 1. Click on the **Edit this file** button (pencil)
 2. Insert the following stage after the existing **build** stage:
