@@ -301,28 +301,4 @@ Then add the following stage after the **Deploy** stage:
 
 The ```helloWorld``` function we are calling can be seen at: https://github.com/beedemo/workflowLibs/blob/master/vars/helloWorld.groovy
 
-# Exercise 1.11
 
-Finally we will use the Blue Ocean Pipeline Editor to create a simple declarative pipeline using the following steps:
-
-1. Navigate to your user folder.  You should see the job **SimplePipeline** and your username at the top of the page.
-2. Click on the **Open Blue Ocean** button in the left side navigation bar
-3. Click on the **New Pipeline** button
-4. Click on one of the options in the **Where do you store your code?** section (Github for this course)
-5. Enter your **Github token**
-6. Select the **Organization** in which the repository that you want to create the Jenkinsfile in exists
-7. Select **New Pipeline**
-8. Choose the **Repository**
-9. Click on **Create Pipeline**
-
-Once the pipeline has created Blue Ocean will open the editor screen. We will create a few simple steps using the following instructions (feel free to veer of course and try all of the options available):
-
-1. Click on the **+** icon next to the pipeline's **Start** node
-2. Click into **Name your stage** and enter a name
-3. Click on **+ Add step**
-4. Click on **Shell script**
-5. Type ```mvn -v``` into the text box
-6. Click on **Save** to save the pipeline and execute it
-7. Enter a commit message into the **Save Pipeline** pop up and click **Save & Run**
-
-After your pipeline executes you can click on the **pencil** icon to continue editing your pipeline.
