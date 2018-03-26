@@ -305,14 +305,15 @@ The ```helloWorld``` function we are calling can be seen at: https://github.com/
 
 Finally we will use the Blue Ocean Pipeline Editor to create a simple declarative pipeline using the following steps:
 
-1. Click on the **Open Blue Ocean** button in the left side navigation bar
-2. Click on the **New Pipeline** button
-3. Click on one of the options in the **Where do you store your code?** section (Github for this course)
-4. Enter your **Github token**
-5. Select the **Organization** in which the repository that you want to create the Jenkinsfile in exists
-6. Select **New Pipeline**
-7. Choose the **Repository**
-8. Click on **Create Pipeline**
+1. Navigate to your user folder.  You should see the job SimplePipeline and your username at the top of the page.
+2. Click on the **Open Blue Ocean** button in the left side navigation bar
+3. Click on the **New Pipeline** button
+4. Click on one of the options in the **Where do you store your code?** section (Github for this course)
+5. Enter your **Github token**
+6. Select the **Organization** in which the repository that you want to create the Jenkinsfile in exists
+7. Select **New Pipeline**
+8. Choose the **Repository**
+9. Click on **Create Pipeline**
 
 Once the pipeline has created Blue Ocean will open the editor screen. We will create a few simple steps using the following instructions (feel free to veer of course and try all of the options available):
 
