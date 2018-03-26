@@ -156,6 +156,8 @@ Insert the following `stage` block into your pipeline after `stage('Say Hello') 
     }
 ```
 
+On the next build wait for the input time to see what happens.
+
 # Exercise 1.6
 
 In this example we will replace the **Deploy** stage with an input that returns data to the pipeline for use later in a subsequent step or stage.  This form of input is useful when needing to query users for additional data before continuing pipeline processing.
