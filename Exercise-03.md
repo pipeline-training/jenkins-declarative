@@ -38,7 +38,9 @@ When the job has completed running you will see a **Resume** icon in the build's
 **Note**: Deleting a checkpoint doesn't make the **Resume** icon vanish.
 
 # Exercise 3.2
-In this exercise we are going to set-up two Pipeline jobs that demonstrate CloudBee's Cross Team Collaboration feature. We will need two separate Pipelines - one that publishes an event - and two - another that is triggered by an event.
+In this exercise we are going to set-up two Pipeline jobs that demonstrate CloudBee's Cross Team Collaboration feature. We will need two separate Pipelines - one that publishes an event and another that is triggered by an event.
+
+Create a **Pipeline** job named **PublishEventJob** that includes the following:
 
 ### Publish Event
 
@@ -54,6 +56,8 @@ pipeline {
     }
 }
 ```
+
+Create a **Pipeline** job named **EventTriggerJob** that includes the following:
 
 ### Event Trigger
 
@@ -78,7 +82,7 @@ pipeline {
 }
 ```
 
-After creating both of these Pipeline jobs you will need to run the **Event Trigger** job once so that the trigger is registered. Once that is complete, click on **Build Now** to run the **Publish Event** job. Once that job has completed, the **Event Trigger** job will be triggered after a few seconds. The logs will show that the job was triggered by an `Event Trigger` and the `when` expression will be true.
+After creating both of these Pipeline jobs you will need to run the **EventTriggerJob** job once so that the trigger is registered. Once that is complete, click on **Build Now** to run the **PublishEventJob** job. Once that job has completed, the **EventTriggerJob** job will be triggered after a few seconds. The logs will show that the job was triggered by an `Event Trigger` and the `when` expression will be true.
 
 # Exercise 3.3
 
